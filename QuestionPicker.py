@@ -1,0 +1,57 @@
+from random import choice
+
+def main():
+    completed_questions = [
+        "(Arrays & Hashing) Contains Duplicate",
+        "(Arrays & Hashing) Valid Anagram",
+        "(Arrays & Hashing) Two Sum",
+        "(Arrays & Hashing) Group Anagrams",
+        "(Arrays & Hashing) Top K Frequent Elements",
+        "(Arrays & Hashing) Encode and Decode Strings",
+        "(Arrays & Hashing) Product of Array Except Self",
+        "(Arrays & Hashing) Valid Sudoku", 
+        "(Arrays & Hashing) Longest Consecutive Sequence",
+        "(Two Pointers) Valid Palindrome",
+        "(Two Pointers) Two Sum II Input Array is Sorted",
+        "(Two Pointers) 3Sum", 
+        "(Two Pointers) Container with Most Watter",
+        "(Two Pointers) Trapping Rain Water",
+        "(Stack) Valid Parentheses",
+        "(Stack) Evaluate Reverse Polish Notation",
+        "(Stack) Generate Parentheses",
+        "(Stack) Daily Temperatures",
+        "(Stack) Car Fleet",
+        "(Stack) Largest Rectangle in Histogram",
+        "(Binary Search) Binary Search",
+        "(Binary Search) Search a 2D Matrix",
+        "(Binary Search) Koko Eating Bananas", 
+        "(Binary Search) Find Minimum in Rotated Sorted Array",
+        "(Sliding Window) Best Time to Buy and Sell Stock",
+        "(Sliding Window) Longest Substring Without Repeating Characters",
+        "(Sliding Window) Longest Repeating Character Replacement",
+        "(Sliding Window) Permutation in String",
+        "(Linked List) Reverse Linked List",
+        "(Linked List) Merge Two Sorted Lists",
+        "(Linked List) Reorder List",
+        "(Linked List) Remove Nth Node From End of List",
+        "(Linked List) Copy List with Random Pointer",
+        "(Linked List) Add Two Numbers", 
+        "(Linked List) Linked List Cycle",
+        "(Linked List) Find the Duplicate Number",
+        "(Trees) Invert Binary Tree",
+        "(Trees) Maximum Depth of Binary Tree", 
+        "(Trees) Diameter of Binary Tree",
+        "(Trees) Balanced Binary Tree",
+        "(Trees) Subtree of Another Tree", 
+        "(Trees) Lowest Common Ancestor of a Binary Search Tree",
+        "(Trees) Binary Tree Level Order Traversal",
+        "(Trees) Binary Tree Right Side View",
+        "(Trees) Count Good Nodes in Binary Tree",
+        "(Trees) Vaidate Binary Search Tree", 
+        "(Trees) Kth Smallest Element in a Bst",
+    ]
+
+    print("Question to Revise:", choice(completed_questions))
+
+if __name__ == "__main__":
+    main()
