@@ -49,6 +49,7 @@ def main():
         "(Trees) Count Good Nodes in Binary Tree",
         "(Trees) Vaidate Binary Search Tree", 
         "(Trees) Kth Smallest Element in a Bst",
+        "(Trees) Construct Binary Tree From Preorder and Inorder Traversal",
     ]
 
     print("Question to Revise:", choice(completed_questions))
