@@ -26,6 +26,7 @@ def main():
         "(Binary Search) Search a 2D Matrix",
         "(Binary Search) Koko Eating Bananas", 
         "(Binary Search) Find Minimum in Rotated Sorted Array",
+        "(Binary Search) Search in Rotated Sorted Array",
         "(Sliding Window) Best Time to Buy and Sell Stock",
         "(Sliding Window) Longest Substring Without Repeating Characters",
         "(Sliding Window) Longest Repeating Character Replacement",
