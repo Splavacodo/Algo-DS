@@ -40,6 +40,7 @@ def main():
         "(Linked List) Add Two Numbers", 
         "(Linked List) Linked List Cycle",
         "(Linked List) Find the Duplicate Number",
+        "(Linked List) LRU Cache", 
         "(Trees) Invert Binary Tree",
         "(Trees) Maximum Depth of Binary Tree", 
         "(Trees) Diameter of Binary Tree",
