@@ -53,6 +53,7 @@ def main():
         "(Trees) Vaidate Binary Search Tree", 
         "(Trees) Kth Smallest Element in a Bst",
         "(Trees) Construct Binary Tree From Preorder and Inorder Traversal",
+        "(Trees) Binary Tree Maximum Path Sum",
     ]
 
     print("Question to Revise:", choice(completed_questions))
