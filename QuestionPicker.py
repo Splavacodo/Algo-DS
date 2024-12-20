@@ -27,7 +27,8 @@ def main():
         "(Binary Search) Koko Eating Bananas", 
         "(Binary Search) Find Minimum in Rotated Sorted Array",
         "(Binary Search) Search in Rotated Sorted Array",
-        "(Binary Search) Time Based Key-Value Store"
+        "(Binary Search) Time Based Key-Value Store",
+        "(Binary Search) Find Median of Two Sorted Arrays",
         "(Sliding Window) Best Time to Buy and Sell Stock",
         "(Sliding Window) Longest Substring Without Repeating Characters",
         "(Sliding Window) Longest Repeating Character Replacement",
