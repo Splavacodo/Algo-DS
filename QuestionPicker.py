@@ -32,6 +32,7 @@ def main():
         "(Sliding Window) Longest Substring Without Repeating Characters",
         "(Sliding Window) Longest Repeating Character Replacement",
         "(Sliding Window) Permutation in String",
+        "(Sliding Window) Minimum Window Substring",
         "(Linked List) Reverse Linked List",
         "(Linked List) Merge Two Sorted Lists",
         "(Linked List) Reorder List",
