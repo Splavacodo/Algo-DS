@@ -1,5 +1,3 @@
-from collections import deque
-
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
@@ -13,14 +11,19 @@ class Codec:
         :type root: TreeNode
         :rtype: str
         """
-        preorder = []
-        self.get_preorder(root, preorder)
+        res = []
 
-        inorder = []
-        self.get_inorder(root, inorder)
+        def preorder_traverse(node):
+            if not node:
+                res.append("N")
+                return
+            
+            res.append(str(node.val))
+            preorder_traverse(node.left)
+            preorder_traverse(node.right)
 
-        serialized_tree = "a" + ",".join(map(str, preorder)) + "b" + ",".join(map(str, inorder))
-        return serialized_tree
+        preorder_traverse(root)
+        return ",".join(res)
 
     def deserialize(self, data):
         """Decodes your encoded data to tree.
@@ -28,48 +31,18 @@ class Codec:
         :type data: str
         :rtype: TreeNode
         """
-        # Find the start of preorder and inorder segments
-        preorder_data = data[data.index("a") + 1 : data.index("b")]
-        inorder_data = data[data.index("b") + 1 :]
+        node_vals = data.split(",")
 
-        # Split and filter out empty strings
-        preorder = [int(x) for x in preorder_data.split(",") if x]
-        inorder = [int(x) for x in inorder_data.split(",") if x]
-        
-        return self.buildTree(preorder, inorder)
-        
-    def buildTree(self, preorder: list[int], inorder: list[int]) -> TreeNode:
-        print(preorder)
-        print(inorder)
-        val_to_idx = {val: idx for idx, val in enumerate(inorder)}
-        preorder = deque(preorder)
-        
-        def tree_builder(start, end): 
-            if start > end:
-                return None
+        def build_tree(index):
+            if node_vals[index] == "N":
+                return (None, index + 1)
             
-            root = TreeNode(preorder.popleft())
-            mid = val_to_idx[root.val]
+            node = TreeNode(node_vals[index])
 
-            root.left = tree_builder(start, mid - 1)
-            root.right = tree_builder(mid + 1, end)
+            index += 1
+            node.left, index = build_tree(index)
+            node.right, index = build_tree(index)
 
-            return root
+            return (node, index)
         
-        return tree_builder(0, len(preorder) - 1)
-
-    def get_preorder(self, node, node_list):
-        if not node:
-            return
-        
-        node_list.append(node.val)
-        self.get_preorder(node.left, node_list)
-        self.get_preorder(node.right, node_list)
-
-    def get_inorder(self, node, node_list):
-        if not node:
-            return
-        
-        self.get_inorder(node.left, node_list)
-        node_list.append(node.val)
-        self.get_inorder(node.right, node_list)
+        return build_tree(0)[0]
