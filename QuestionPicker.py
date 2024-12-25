@@ -46,6 +46,7 @@ def main():
         "(Linked List) Find the Duplicate Number",
         "(Linked List) LRU Cache", 
         "(Linked List) Merge K Sorted Lists",
+        "(Linked List) Reverse Nodes in k-Group",
         "(Trees) Invert Binary Tree",
         "(Trees) Maximum Depth of Binary Tree", 
         "(Trees) Diameter of Binary Tree",
@@ -60,6 +61,7 @@ def main():
         "(Trees) Kth Smallest Element in a Bst",
         "(Trees) Construct Binary Tree From Preorder and Inorder Traversal",
         "(Trees) Binary Tree Maximum Path Sum",
+        "(Trees) Serialize and Deserialize Binary Tree",
     ]
 
     print("Question to Revise:", choice(completed_questions))
