@@ -64,6 +64,7 @@ def main():
         "(Trees) Serialize and Deserialize Binary Tree",
         "(Backtracking) Subsets",
         "(Backtracking) Combination Sum",
+        "(Backtracking) Permutations", 
     ]
 
     print("Question to Revise:", choice(completed_questions))
