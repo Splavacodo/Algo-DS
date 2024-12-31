@@ -8,11 +8,11 @@ def productExceptSelf(nums: list[int]) -> list[int]:
     You must write an algorithm that runs in O(n) time and without using the division operation
 
     Approach: 
-    Prefix and Postfix Sums - 
+    Prefix and Postfix Products - 
     An array must be created that's the same size as the input array. Once the array is created, a 
-    forward pass of the input array will computer prefix sums of each location in the array. The 
-    next step would be to make a backward pass of the input array and compute the postfix sum at each
-    index. The prefix sum and the postfix sum multiplied together would result in a product of every
+    forward pass of the input array will computer prefix products of each location in the array. The 
+    next step would be to make a backward pass of the input array and compute the postfix product at each
+    index. The prefix product and the postfix product multiplied together would result in a product of every
     number except the one at that index. 
     """
     answer = [0 for i in range(len(nums))]

@@ -67,6 +67,8 @@ def main():
         "(Backtracking) Permutations", 
         "(Backtracking) Combination Sum II",
         "(Backtracking) Subsets II",
+        "(Backtracking) Word Search",
+        "(Backtracking) Palindrome Partitioning",
     ]
 
     print("Question to Revise:", choice(completed_questions))
