@@ -70,6 +70,7 @@ def main():
         "(Backtracking) Word Search",
         "(Backtracking) Palindrome Partitioning",
         "(Backtracking) Letter Combinations of a Phone Number",
+        "(Backtracking) N-Queens",
     ]
 
     print("Question to Revise:", choice(completed_questions))
