@@ -72,6 +72,7 @@ def main():
         "(Backtracking) Letter Combinations of a Phone Number",
         "(Backtracking) N-Queens",
         "(Tries) Implement Trie (Prefix Tree)",
+        "(Tries) Design Add and Search Words Data Structure",
     ]
 
     print("Question to Revise:", choice(completed_questions))
