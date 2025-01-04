@@ -71,6 +71,7 @@ def main():
         "(Backtracking) Palindrome Partitioning",
         "(Backtracking) Letter Combinations of a Phone Number",
         "(Backtracking) N-Queens",
+        "(Tries) Implement Trie (Prefix Tree)",
     ]
 
     print("Question to Revise:", choice(completed_questions))
