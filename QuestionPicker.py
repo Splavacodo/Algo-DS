@@ -73,6 +73,7 @@ def main():
         "(Backtracking) N-Queens",
         "(Tries) Implement Trie (Prefix Tree)",
         "(Tries) Design Add and Search Words Data Structure",
+        "(Tries) Word Search II",
     ]
 
     print("Question to Revise:", choice(completed_questions))
