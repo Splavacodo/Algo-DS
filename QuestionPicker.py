@@ -74,9 +74,11 @@ def main():
         "(Tries) Implement Trie (Prefix Tree)",
         "(Tries) Design Add and Search Words Data Structure",
         "(Tries) Word Search II",
-        "(Heap/Priority Queue) Kth Largest Element in a Stream)",
+        "(Heap/Priority Queue) Kth Largest Element in a Stream",
         "(Heap/Priority Queue) Last Stone Weight",
+        "(Heap/Priority Queue) K Closest Points to Origin",
         "(Dynamic Programming) Climbing Stairs",
+        "(Dynamic Programming) Min Cost Climbing Stairs",
     ]
 
     print("Question to Revise:", choice(completed_questions))
