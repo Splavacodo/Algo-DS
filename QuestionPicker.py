@@ -77,6 +77,7 @@ def main():
         "(Heap/Priority Queue) Kth Largest Element in a Stream",
         "(Heap/Priority Queue) Last Stone Weight",
         "(Heap/Priority Queue) K Closest Points to Origin",
+        "(Heap/Priority Queue) Kth Largest Element in an Array",
         "(Dynamic Programming) Climbing Stairs",
         "(Dynamic Programming) Min Cost Climbing Stairs",
         "(Graphs) Number of Islands", 
