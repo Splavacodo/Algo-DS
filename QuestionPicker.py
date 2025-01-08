@@ -79,6 +79,7 @@ def main():
         "(Heap/Priority Queue) K Closest Points to Origin",
         "(Dynamic Programming) Climbing Stairs",
         "(Dynamic Programming) Min Cost Climbing Stairs",
+        "(Graphs) Number of Islands", 
     ]
 
     print("Question to Revise:", choice(completed_questions))
