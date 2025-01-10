@@ -80,8 +80,11 @@ def main():
         "(Heap/Priority Queue) Kth Largest Element in an Array",
         "(Dynamic Programming) Climbing Stairs",
         "(Dynamic Programming) Min Cost Climbing Stairs",
+        "(Dynamic Programming) House Robber",
+        "(Dynamic Programming) House Robber II",
         "(Graphs) Number of Islands", 
         "(Graphs) Max Area of Island",
+        "(Graphs) Clone Graph",
     ]
 
     print("Question to Revise:", choice(completed_questions))
