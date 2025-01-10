@@ -81,6 +81,7 @@ def main():
         "(Dynamic Programming) Climbing Stairs",
         "(Dynamic Programming) Min Cost Climbing Stairs",
         "(Graphs) Number of Islands", 
+        "(Graphs) Max Area of Island",
     ]
 
     print("Question to Revise:", choice(completed_questions))
