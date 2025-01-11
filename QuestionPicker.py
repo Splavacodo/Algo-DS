@@ -16,6 +16,8 @@ def main():
         "(Two Pointers) 3Sum", 
         "(Two Pointers) Container with Most Watter",
         "(Two Pointers) Trapping Rain Water",
+        "(Two Pointers) Longest Palindromic Substring",
+        "(Two Pointers) Palindromic Substrings",
         "(Stack) Valid Parentheses",
         "(Stack) Min Stack",
         "(Stack) Evaluate Reverse Polish Notation",
