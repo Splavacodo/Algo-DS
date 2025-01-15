@@ -80,6 +80,7 @@ def main():
         "(Heap/Priority Queue) Last Stone Weight",
         "(Heap/Priority Queue) K Closest Points to Origin",
         "(Heap/Priority Queue) Kth Largest Element in an Array",
+        "(Heap/Priority Queue) Task Scheduler",
         "(Dynamic Programming) Climbing Stairs",
         "(Dynamic Programming) Min Cost Climbing Stairs",
         "(Dynamic Programming) House Robber",
@@ -88,6 +89,7 @@ def main():
         "(Graphs) Number of Islands", 
         "(Graphs) Max Area of Island",
         "(Graphs) Clone Graph",
+        "(Graphs) Walls and Gates", 
     ]
 
     print("Question to Revise:", choice(completed_questions))
