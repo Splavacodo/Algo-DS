@@ -90,6 +90,7 @@ def main():
         "(Graphs) Max Area of Island",
         "(Graphs) Clone Graph",
         "(Graphs) Walls and Gates", 
+        "(Graphs) Rotting Oranges",
     ]
 
     print("Question to Revise:", choice(completed_questions))
