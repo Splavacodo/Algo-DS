@@ -87,6 +87,7 @@ def main():
         "(Dynamic Programming) House Robber II",
         "(Dynamic Programming) Decode Ways",
         "(Dynamic Programming) Coin Change", 
+        "(Dynamic Programming) Maximum Product Subarray", 
         "(Graphs) Number of Islands", 
         "(Graphs) Max Area of Island",
         "(Graphs) Clone Graph",
