@@ -88,12 +88,14 @@ def main():
         "(Dynamic Programming) Decode Ways",
         "(Dynamic Programming) Coin Change", 
         "(Dynamic Programming) Maximum Product Subarray", 
+        "(Dynamic Programming) Longest Increasing Subsequence",
         "(Graphs) Number of Islands", 
         "(Graphs) Max Area of Island",
         "(Graphs) Clone Graph",
         "(Graphs) Walls and Gates", 
         "(Graphs) Rotting Oranges",
         "(Graphs) Pacific Atlantic Water Flow",
+        "(Graphs) Surrounded Regions",
     ]
 
     print("Question to Revise:", choice(completed_questions))
