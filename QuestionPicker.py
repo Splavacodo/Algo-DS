@@ -98,6 +98,8 @@ def main():
         "(Graphs) Surrounded Regions",
         "(Graphs) Course Schedule",
         "(Graphs) Course Schedule II",
+        "(Graphs) Graph Valid Tree",
+        "(Greedy) Maximum Subarray",
     ]
 
     print("Question to Revise:", choice(completed_questions))
