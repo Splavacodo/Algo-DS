@@ -96,6 +96,8 @@ def main():
         "(Graphs) Rotting Oranges",
         "(Graphs) Pacific Atlantic Water Flow",
         "(Graphs) Surrounded Regions",
+        "(Graphs) Course Schedule",
+        "(Graphs) Course Schedule II",
     ]
 
     print("Question to Revise:", choice(completed_questions))
