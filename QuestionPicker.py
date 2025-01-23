@@ -89,6 +89,7 @@ def main():
         "(Dynamic Programming) Coin Change", 
         "(Dynamic Programming) Maximum Product Subarray", 
         "(Dynamic Programming) Longest Increasing Subsequence",
+        "(Dynamic Programming) Word Break",
         "(Graphs) Number of Islands", 
         "(Graphs) Max Area of Island",
         "(Graphs) Clone Graph",
