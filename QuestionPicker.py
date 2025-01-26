@@ -100,6 +100,8 @@ def main():
         "(Graphs) Course Schedule",
         "(Graphs) Course Schedule II",
         "(Graphs) Graph Valid Tree",
+        "(Graphs) Number of Connected Components in an Undirected Graph",
+        "(Graphs) Redundant Connection",
         "(Greedy) Maximum Subarray",
     ]
 
