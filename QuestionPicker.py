@@ -81,6 +81,7 @@ def main():
         "(Heap/Priority Queue) K Closest Points to Origin",
         "(Heap/Priority Queue) Kth Largest Element in an Array",
         "(Heap/Priority Queue) Task Scheduler",
+        "(Heap/Priority Queue) Design Twitter",
         "(Dynamic Programming) Climbing Stairs",
         "(Dynamic Programming) Min Cost Climbing Stairs",
         "(Dynamic Programming) House Robber",
