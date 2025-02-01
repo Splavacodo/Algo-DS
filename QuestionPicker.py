@@ -91,6 +91,7 @@ def main():
         "(Dynamic Programming) Maximum Product Subarray", 
         "(Dynamic Programming) Longest Increasing Subsequence",
         "(Dynamic Programming) Word Break",
+        "(Dynamic Programming) Partition Equal Subset Sum"
         "(Graphs) Number of Islands", 
         "(Graphs) Max Area of Island",
         "(Graphs) Clone Graph",
