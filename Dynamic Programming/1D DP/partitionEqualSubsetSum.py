@@ -8,15 +8,19 @@ class Solution:
         dp = set([0])
         target = total / 2
 
-        for i in range(len(nums) - 1, -1, -1):
+        for num in nums:
+            if num > target:
+                return False
+            
             nextDp = set()
 
             for subset_total in dp:
-                if subset_total + nums[i] == target:
+                if subset_total + num == target:
                     return True
+                elif subset_total + num < target:
+                    nextDp.add(subset_total + num)
                 
                 nextDp.add(subset_total)
-                nextDp.add(subset_total + nums[i])
             
             dp = nextDp
         

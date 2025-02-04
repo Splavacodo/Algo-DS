@@ -104,6 +104,7 @@ def main():
         "(Graphs) Graph Valid Tree",
         "(Graphs) Number of Connected Components in an Undirected Graph",
         "(Graphs) Redundant Connection",
+        "(Graphs) Word Ladder",
         "(Greedy) Maximum Subarray",
     ]
 
