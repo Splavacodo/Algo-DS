@@ -82,6 +82,7 @@ def main():
         "(Heap/Priority Queue) Kth Largest Element in an Array",
         "(Heap/Priority Queue) Task Scheduler",
         "(Heap/Priority Queue) Design Twitter",
+        "(Heap/Priority Queue) Find Median from Data Stream",
         "(Dynamic Programming) Climbing Stairs",
         "(Dynamic Programming) Min Cost Climbing Stairs",
         "(Dynamic Programming) House Robber",
