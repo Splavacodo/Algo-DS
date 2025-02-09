@@ -109,6 +109,7 @@ def main():
         "(Greedy) Maximum Subarray",
         "(Greedy) Jump Game",
         "(Greedy) Jump Game II",
+        "(Greedy) Gas Station",
     ]
 
     print("Question to Revise:", choice(completed_questions))
