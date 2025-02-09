@@ -107,6 +107,7 @@ def main():
         "(Graphs) Redundant Connection",
         "(Graphs) Word Ladder",
         "(Greedy) Maximum Subarray",
+        "(Greedy) Jump Game",
     ]
 
     print("Question to Revise:", choice(completed_questions))
