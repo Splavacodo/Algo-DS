@@ -108,6 +108,7 @@ def main():
         "(Graphs) Word Ladder",
         "(Greedy) Maximum Subarray",
         "(Greedy) Jump Game",
+        "(Greedy) Jump Game II",
     ]
 
     print("Question to Revise:", choice(completed_questions))
