@@ -11,6 +11,8 @@ def main():
         "(Arrays & Hashing) Product of Array Except Self",
         "(Arrays & Hashing) Valid Sudoku", 
         "(Arrays & Hashing) Longest Consecutive Sequence",
+        "(Arrays & Hashing) Hand of Straights",
+        "(Arrays & Hashing) Merge Sorted Array",
         "(Two Pointers) Valid Palindrome",
         "(Two Pointers) Two Sum II Input Array is Sorted",
         "(Two Pointers) 3Sum", 
@@ -110,7 +112,6 @@ def main():
         "(Greedy) Jump Game",
         "(Greedy) Jump Game II",
         "(Greedy) Gas Station",
-        "(General) Hand of Straights",
     ]
 
     print("Question to Revise:", choice(completed_questions))
