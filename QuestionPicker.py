@@ -110,6 +110,7 @@ def main():
         "(Greedy) Jump Game",
         "(Greedy) Jump Game II",
         "(Greedy) Gas Station",
+        "(General) Hand of Straights",
     ]
 
     print("Question to Revise:", choice(completed_questions))
