@@ -31,7 +31,7 @@ class Solution:
                         if neighbor_word not in visited:
                             visited.add(neighbor_word)
                             queue.append(neighbor_word)
-            
+
             sequence_len += 1
 
         return 0

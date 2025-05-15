@@ -4,7 +4,6 @@ class Node:
         self.val = val
 
 class LRUCache:
-
     def __init__(self, capacity: int):
         self.capacity = capacity
         self.key_to_node = {}
