@@ -112,6 +112,11 @@ def main():
         "(Greedy) Jump Game",
         "(Greedy) Jump Game II",
         "(Greedy) Gas Station",
+        "(Greedy) Hand of Straights",
+        "(2D Dynamic Programming) Unique Paths",
+        "(2D Dynamic Programming) Longest Common Subsequence",
+        "(2D Dynamic Programming) Coin Change 2",
+        "(Intervals) Merged Intervals",
     ]
 
     print("Question to Revise:", choice(completed_questions))
