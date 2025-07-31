@@ -19,6 +19,7 @@ class Solution:
                 row, col = queue.popleft()
                 
                 neighbors = [(col - 1, row), (col + 1, row), (col, row - 1), (col, row + 1)]
+                
                 for r, c in neighbors:
                     if 0 <= r < rows and 0 <= c < cols and rooms[r][c] == INF:
                         rooms[r][c] = distance
