@@ -117,6 +117,7 @@ def main():
         "(2D Dynamic Programming) Longest Common Subsequence",
         "(2D Dynamic Programming) Coin Change 2",
         "(2D Dynamic Programming) Best Time to Buy and Sell Stock with Cooldown",
+        "(2D Dynamic Programming) Target Sum",
         "(Intervals) Merged Intervals",
     ]
 
