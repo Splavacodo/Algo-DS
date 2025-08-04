@@ -120,6 +120,7 @@ def main():
         "(2D Dynamic Programming) Target Sum",
         "(Intervals) Merged Intervals",
         "(Intervals) Insert Interval",
+        "(Intervals) Non-overlapping Intervals",
     ]
 
     print("Question to Revise:", choice(completed_questions))
