@@ -119,6 +119,7 @@ def main():
         "(2D Dynamic Programming) Best Time to Buy and Sell Stock with Cooldown",
         "(2D Dynamic Programming) Target Sum",
         "(Intervals) Merged Intervals",
+        "(Intervals) Insert Interval",
     ]
 
     print("Question to Revise:", choice(completed_questions))
