@@ -122,6 +122,7 @@ def main():
         "(2D Dynamic Programming) Longest Increasing Path in a Matrix",
         "(2D Dynamic Programming) Distinct Subsequences",
         "(2D Dynamic Programming) Edit Distance",
+        "(2D Dynamic Programming) Burst Balloons",
         "(Intervals) Merged Intervals",
         "(Intervals) Insert Interval",
         "(Intervals) Non-overlapping Intervals",
