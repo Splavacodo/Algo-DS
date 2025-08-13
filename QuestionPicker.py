@@ -123,6 +123,7 @@ def main():
         "(2D Dynamic Programming) Distinct Subsequences",
         "(2D Dynamic Programming) Edit Distance",
         "(2D Dynamic Programming) Burst Balloons",
+        "(2D Dynamic Programming) Regular Expression Matching",
         "(Intervals) Merged Intervals",
         "(Intervals) Insert Interval",
         "(Intervals) Non-overlapping Intervals",
