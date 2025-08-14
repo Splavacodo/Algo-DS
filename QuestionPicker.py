@@ -113,6 +113,7 @@ def main():
         "(Greedy) Jump Game II",
         "(Greedy) Gas Station",
         "(Greedy) Hand of Straights",
+        "(Greedy) Merge Triplets to Form Target Triplet", 
         "(2D Dynamic Programming) Unique Paths",
         "(2D Dynamic Programming) Longest Common Subsequence",
         "(2D Dynamic Programming) Coin Change 2",
