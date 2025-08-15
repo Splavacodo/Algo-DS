@@ -108,6 +108,7 @@ def main():
         "(Graphs) Number of Connected Components in an Undirected Graph",
         "(Graphs) Redundant Connection",
         "(Graphs) Word Ladder",
+        "(Advanced Graphs) Alien Dictionary",
         "(Greedy) Maximum Subarray",
         "(Greedy) Jump Game",
         "(Greedy) Jump Game II",
