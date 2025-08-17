@@ -116,6 +116,7 @@ def main():
         "(Greedy) Hand of Straights",
         "(Greedy) Merge Triplets to Form Target Triplet", 
         "(Greedy) Partition Labels", 
+        "(Greedy) Valid Parenthesis String",
         "(2D Dynamic Programming) Unique Paths",
         "(2D Dynamic Programming) Longest Common Subsequence",
         "(2D Dynamic Programming) Coin Change 2",
