@@ -109,6 +109,7 @@ def main():
         "(Graphs) Redundant Connection",
         "(Graphs) Word Ladder",
         "(Advanced Graphs) Alien Dictionary",
+        "(Advanced Graphs) Network Delay Time",
         "(Greedy) Maximum Subarray",
         "(Greedy) Jump Game",
         "(Greedy) Jump Game II",
