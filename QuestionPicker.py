@@ -111,6 +111,7 @@ def main():
         "(Advanced Graphs) Alien Dictionary",
         "(Advanced Graphs) Network Delay Time",
         "(Advanced Graphs) Reconstruct Itinerary",
+        "(Advanced Graphs) Min Cost to Connect All Points", 
         "(Greedy) Maximum Subarray",
         "(Greedy) Jump Game",
         "(Greedy) Jump Game II",
