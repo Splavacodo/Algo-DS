@@ -113,6 +113,7 @@ def main():
         "(Advanced Graphs) Reconstruct Itinerary",
         "(Advanced Graphs) Min Cost to Connect All Points",
         "(Advanced Grpahs) Swim in Rising Water",
+        "(Advanced Graphs) Cheapest Flights Within K Stops", 
         "(Greedy) Maximum Subarray",
         "(Greedy) Jump Game",
         "(Greedy) Jump Game II",
