@@ -139,6 +139,11 @@ def main():
         "(Intervals) Meeting Rooms",
         "(Intervals) Meeting Rooms 2",
         "(Intervals) Minimum Interval to Include Each Query",
+        "(Bit Manipulation) Single Number",
+        "(Bit Manipulation) Number of 1 Bits",
+        "(Bit Manipulation) Counting Bits",
+        "(Bit Manipulation) Reverse Bits",
+        "(Bit Manipulation) Missing Number"
     ]
 
     print("Question to Revise:", choice(completed_questions))
