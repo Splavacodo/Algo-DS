@@ -143,7 +143,9 @@ def main():
         "(Bit Manipulation) Number of 1 Bits",
         "(Bit Manipulation) Counting Bits",
         "(Bit Manipulation) Reverse Bits",
-        "(Bit Manipulation) Missing Number"
+        "(Bit Manipulation) Missing Number",
+        "(Bit Manipulation) Sum of Two Integers",
+        "(Bit Manipulation) Reverse Integer"
     ]
 
     print("Question to Revise:", choice(completed_questions))
