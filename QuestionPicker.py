@@ -145,7 +145,8 @@ def main():
         "(Bit Manipulation) Reverse Bits",
         "(Bit Manipulation) Missing Number",
         "(Bit Manipulation) Sum of Two Integers",
-        "(Bit Manipulation) Reverse Integer"
+        "(Bit Manipulation) Reverse Integer",
+        "(Math & Geometry) Rotate Image"
     ]
 
     print("Question to Revise:", choice(completed_questions))
