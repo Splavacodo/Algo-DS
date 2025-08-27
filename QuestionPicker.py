@@ -147,7 +147,8 @@ def main():
         "(Bit Manipulation) Sum of Two Integers",
         "(Bit Manipulation) Reverse Integer",
         "(Math & Geometry) Rotate Image",
-        "(Math & Geometry) Spiral Matrix"
+        "(Math & Geometry) Spiral Matrix",
+        "(Math & Geometry) Set Matrix Zeros"
     ]
 
     print("Question to Revise:", choice(completed_questions))
