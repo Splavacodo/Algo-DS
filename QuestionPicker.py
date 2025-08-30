@@ -151,7 +151,9 @@ def main():
         "(Math & Geometry) Set Matrix Zeros",
         "(Math & Geometry) Happy Number",
         "(Math & Geometry) Plus One",
-        "(Math & Geometry) Pow(x, n)"
+        "(Math & Geometry) Pow(x, n)",
+        "(Math & Geometry) Multiply Strings",
+        "(Math & Geometry) Detect Squares",
     ]
 
     print("Question to Revise:", choice(completed_questions))
